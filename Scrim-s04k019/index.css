@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background-color: 0C4A6E;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: E0F2FE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+.home-content {
+    width: 250px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+p {
+    font-size: 108px;
+    color: red;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+    
+}
+
+.guest-content {
+    width: 250px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.guest-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 28px;
+}
+
+#home-button {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: 0C4A6E;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+#home-button:hover {
+    background-color: #155e75;
+}
+
+#guest-button {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: 0C4A6E;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+#guest-button:hover {
+    background-color: #155e75;
+}
+
+.new-game-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.new-game-button {
+    padding: 12px 32px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #0C4A6E;
+    color: white;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.new-game-button:hover {
+    background-color: #155e75;
+}
+
